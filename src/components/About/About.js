@@ -18,7 +18,7 @@ const About = () => {
           alignItems: "center",
           gap: "2rem",
           cursor: "pointer",
-          marginBottom: "5rem"
+          marginBottom: "2rem"
         }}
       >
         {whyUs.map((item) => {
@@ -64,6 +64,7 @@ const About = () => {
                   {item.title}
                 </Typography>
                 <Typography
+                  component="p"
                   variant="body2"
                 >
                   {item.desc}

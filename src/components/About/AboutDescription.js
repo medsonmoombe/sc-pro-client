@@ -47,7 +47,7 @@ const AboutDescription = () => {
                   flexDirection: "column",
                   alignItems: "flex-start",
                   position: "relative",
-                  top: "-60px",
+                  top: "-34px",
                   gap: "1rem",
                 }}
               >
@@ -63,25 +63,25 @@ const AboutDescription = () => {
                   }}
                 >
                   <Typography variant="h6">ABOUT US</Typography>
-                  <div className={classes.div}>
-                    <span className={classes.span2}></span>
-                    <span className={classes.span}></span>
-                  </div>
+                  <Typography component="div" className={classes.div}>
+                    <Typography className={classes.span2}></Typography>
+                    <Typography className={classes.span}></Typography>
+                  </Typography>
                 </Grid>
                 <Typography variant="h4" className={classes.aboutHearding}>
                   Welcome to eLEARNING
                 </Typography>
-                <p
+                <Typography
                   sx={{
                     color: "#000",
                     fontFamily: "Roboto, sans-serif",
-                    fontSize: "12px",
+                    fontSize: "15px",
                     fontWeight: "400",
                   }}
                 >
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                   Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                </p>
+                </Typography>
               </Container>
             </Grid>
             <Grid sx={{
@@ -102,7 +102,8 @@ const AboutDescription = () => {
                         justifyContent: "flex-start",
                         width: "fit-content",
                         alignItems: "center",
-                        flexDirection: "row-reverse"
+                        flexDirection: "row-reverse",
+                        gap: ".5rem",
                     }}
                     >
                         <Typography>{el.title}</Typography>
