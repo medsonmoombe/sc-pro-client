@@ -4,6 +4,7 @@ import React from "react";
 import { useStyles } from "../styles";
 import { aboutUs } from "./cardsInfor";
 import about_us from "../../assests/images/about_us.jpg";
+import Category from "./Category";
 
 const AboutDescription = () => {
   const classes = useStyles();
@@ -18,7 +19,7 @@ const AboutDescription = () => {
 
           gap: "2rem",
           cursor: "pointer",
-          marginBottom: "5rem",
+          marginBottom: "0.1rem",
         }}
       >
         <Grid
@@ -91,7 +92,7 @@ const AboutDescription = () => {
                gridTemplateColumns: "repeat(2, 1fr)",
                gridTemplateRows: "2",
                gap: 1,
-               marginLeft: "1.5rem",
+               marginLeft: "0.5rem",
             }}>
               {aboutUs.map((el) => {
                 return (
@@ -168,6 +169,7 @@ const AboutDescription = () => {
           </Grid>
         </Grid>
       </Container>
+      <Category/>
     </>
   );
 };

@@ -1,5 +1,4 @@
 import { makeStyles } from "@material-ui/core/styles";
-import { borderRadius } from "@mui/system";
 
 export const useStyles = makeStyles((theme) => ({
     root: {
@@ -50,6 +49,11 @@ export const useStyles = makeStyles((theme) => ({
       height: "400px",
       objectFit: "cover"
     },
+    img1: {
+      width: "100%",
+      height: "15rem",
+      objectFit: "cover"
+    },
     div : {
        display: "flex",
        flexDirection: "column",
@@ -68,6 +72,11 @@ export const useStyles = makeStyles((theme) => ({
       width: "30px",
       borderRadius: "5px"
     }, 
+    span1: {
+      border: "1px solid #34c6eb",
+      width: "30px",
+      borderRadius: "5px",
+    },
     aboutHearding :{
       color: "#000",
       fontFamily: "Roboto, sans-serif",
