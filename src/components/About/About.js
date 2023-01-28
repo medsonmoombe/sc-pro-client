@@ -1,7 +1,5 @@
-import { Scale } from "@mui/icons-material";
-import { CardContent, CardMedia, IconButton, Typography } from "@mui/material";
+import { Box, CardContent, CardMedia, IconButton, Typography } from "@mui/material";
 import Card from "@mui/material/Card";
-import { Container } from "@mui/system";
 import { useStyles } from "../styles";
 import AboutDescription from "./AboutDescription";
 import { whyUs } from "./cardsInfor";
@@ -10,15 +8,17 @@ const About = () => {
     const classes = useStyles();
   return (
     <>
-      <Container
+      <Box
         sx={{
           display: "flex",
           flexDirection: "row",
-          justifyContent: "flex-start",
+          justifyContent: "center",
           alignItems: "center",
+          margin: "auto",
+          width: "85%",
           gap: "2rem",
           cursor: "pointer",
-          marginBottom: "2rem"
+          marginBottom: "1rem"
         }}
       >
         {whyUs.map((item) => {
@@ -73,7 +73,7 @@ const About = () => {
             </Card>
           );
         })}
-      </Container>
+      </Box>
       <AboutDescription/>
     </>
   );

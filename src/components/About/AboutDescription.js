@@ -1,4 +1,4 @@
-import { Grid, Link, Typography } from "@mui/material";
+import { Box, Grid, Link, Typography } from "@mui/material";
 import { Container } from "@mui/system";
 import React from "react";
 import { useStyles } from "../styles";
@@ -10,16 +10,17 @@ const AboutDescription = () => {
   const classes = useStyles();
   return (
     <>
-      <Container
+      <Box
         sx={{
           display: "flex",
           flexDirection: "row",
-          justifyContent: "flex-start",
+          justifyContent: "center",
           alignItems: "center",
-
+          margin: "auto",
+          width: "85%",
           gap: "2rem",
           cursor: "pointer",
-          marginBottom: "0.1rem",
+          marginBottom: "6rem",
         }}
       >
         <Grid
@@ -28,7 +29,7 @@ const AboutDescription = () => {
             justifyContent: "center",
             alignItems: "center",
             paddingTop: "8rem",
-            marginBottom: "8rem",
+            marginBottom: "1rem",
           }}
         >
           <Grid>
@@ -168,7 +169,7 @@ const AboutDescription = () => {
             </Grid>
           </Grid>
         </Grid>
-      </Container>
+      </Box>
       <Category/>
     </>
   );

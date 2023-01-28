@@ -3,6 +3,7 @@ import LanguageIcon from "@mui/icons-material/Language";
 import HomeIcon from "@mui/icons-material/Home";
 import Groups2Icon from "@mui/icons-material/Groups2";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import courseImage from "./../../assests/images/about_us.jpg";
 
 export const whyUs = [
   {
@@ -68,4 +69,11 @@ export const aboutUs = [
     ),
     id: 4,
   },
+];
+
+export const coursesCategories = [
+  { id: 1, img: courseImage, course: "Web development", num_of_courses: 20 },
+  { id: 2, img: courseImage, course: "Web development", num_of_courses: 33 },
+  { id: 3, img: courseImage, course: "Web development", num_of_courses: 19 },
+  { id: 3, img: courseImage, course: "Web development", num_of_courses: 15 },
 ];
