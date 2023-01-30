@@ -98,7 +98,7 @@ export const popularCourseInfo = [
 ]
 
 export const instructorsInfo = [
-  { id: 1, name: "John Doe", facebook: <Facebook sx={{color: "#34c6eb", fontSize:"20px"}} />, twitter: <Twitter sx={{color: "#34c6eb", fontSize:"20px"}}/>, insta: <Instagram sx={{color: "#34c6eb", fontSize:"20px"}}/>, img:inst1 },
-  {id: 1, name: "Micheal Mumba" , facebook: <Facebook sx={{color: "#34c6eb", fontSize:"20px"}} />, twitter: <Twitter sx={{color: "#34c6eb", fontSize:"20px"}}/>, insta: <Instagram sx={{color: "#34c6eb", fontSize:"20px"}}/>, img: inst2},
-  {id: 1, name: "Wess Banda", facebook: <Facebook sx={{color: "#34c6eb", fontSize:"20px"}} />, twitter: <Twitter sx={{color: "#34c6eb", fontSize:"20px"}}/>, insta: <Instagram sx={{color: "#34c6eb", fontSize:"20px"}}/>, img:inst3},
+  { id: 1, name: "John Doe", facebook: <Facebook sx={{color: "#fff", fontSize:"20px"}} />, twitter: <Twitter sx={{color: "#fff", fontSize:"20px"}}/>, insta: <Instagram sx={{color: "#fff", fontSize:"20px"}}/>, img:inst1 },
+  {id: 1, name: "Micheal Mumba" , facebook: <Facebook sx={{color: "#fff", fontSize:"20px"}} />, twitter: <Twitter sx={{color: "#fff", fontSize:"20px"}}/>, insta: <Instagram sx={{color: "#fff", fontSize:"20px"}}/>, img: inst2},
+  {id: 1, name: "Wess Banda", facebook: <Facebook sx={{color: "#fff", fontSize:"20px"}} />, twitter: <Twitter sx={{color: "#fff", fontSize:"20px"}}/>, insta: <Instagram sx={{color: "#fff", fontSize:"20px"}}/>, img:inst3},
 ]
