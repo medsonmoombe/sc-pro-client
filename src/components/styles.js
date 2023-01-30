@@ -74,6 +74,44 @@ export const useStyles = makeStyles((theme) => ({
       textTransform: "uppercase"
     },
 
+    absolute_popularCourse_div : {
+      display:"flex",
+      justifyContent: "center",
+      alignItems: "center",
+      position: "absolute",
+      top: "40%",
+      left: "50%",
+      gap: 2,
+      transform: "translate(-50%, -50%)",
+      padding: 1,
+      width: 200,
+      cursor: "pointer",
+      textTransform: "capitalize"
+    },
+
+    popular_course_link1: {
+      fontSize: "12px",
+      textDecoration: "none",
+      backgroundColor: "#34c6eb",
+      color: "#fff",
+      borderTopLeftRadius: "20px",
+      borderBottomLeftRadius: "20px",
+      padding: 4,
+      width: "50%",
+      textAlign: "center",
+    },
+    popular_course_link2: {
+      fontSize: "12px",
+      textDecoration: "none",
+      backgroundColor: "#34c6eb",
+      color: "#fff",
+      borderTopRightRadius: "20px",
+      borderBottomRightRadius: "20px",
+      padding: 4,
+      width: "50%",
+      textAlign: "center",
+    },
+
     img: {
       width: "500px",
       height: "400px",

@@ -4,6 +4,9 @@ import HomeIcon from "@mui/icons-material/Home";
 import Groups2Icon from "@mui/icons-material/Groups2";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import courseImage from "./../../assests/images/about_us.jpg";
+import PersonIcon from "@mui/icons-material/Person";
+import AccessTimeIcon from "@mui/icons-material/AccessTime";
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 
 export const whyUs = [
   {
@@ -77,3 +80,15 @@ export const coursesCategories = [
   { id: 3, img: courseImage, course: "Web development", num_of_courses: 19 },
   { id: 3, img: courseImage, course: "Web development", num_of_courses: 15 },
 ];
+
+export const popularCourses = [
+  { id: 1, name: "John Doe", img: courseImage, price:"K450.0", course:"Web development", icon: <PersonIcon sx={{color: "#34c6eb", fontSize:"20px"}}/> },
+  {id: 1, name: "1hr 30min ",img: courseImage, price:"K450.0", course:"Web development", icon: <AccessTimeIcon sx={{color: "#34c6eb", fontSize:"20px"}}/> },
+  {id: 1, name: "Students",img: courseImage, price:"K450.0", course:"Web development", icon: <AccountCircleIcon sx={{color: "#34c6eb", fontSize:"20px"}}/>},
+];
+
+export const popularCourseInfo = [
+  { id: 1, name: "John Doe", icon: <PersonIcon sx={{color: "#34c6eb", fontSize:"20px"}}/> },
+  {id: 1, name: "1hr 30min" , icon: <AccessTimeIcon sx={{color: "#34c6eb", fontSize:"20px"}}/> },
+  {id: 1, name: "Student", icon: <AccountCircleIcon sx={{color: "#34c6eb", fontSize:"20px"}}/>},
+]
