@@ -7,6 +7,10 @@ import courseImage from "./../../assests/images/about_us.jpg";
 import PersonIcon from "@mui/icons-material/Person";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import { Facebook, Instagram, Twitter } from "@mui/icons-material";
+import inst1 from '../../assests/images/inst1.jpg';
+import inst2 from '../../assests/images/inst2.jpg';
+import inst3 from '../../assests/images/inst3.jpg';
 
 export const whyUs = [
   {
@@ -82,13 +86,19 @@ export const coursesCategories = [
 ];
 
 export const popularCourses = [
-  { id: 1, name: "John Doe", img: courseImage, price:"K450.0", course:"Web development", icon: <PersonIcon sx={{color: "#34c6eb", fontSize:"20px"}}/> },
-  {id: 1, name: "1hr 30min ",img: courseImage, price:"K450.0", course:"Web development", icon: <AccessTimeIcon sx={{color: "#34c6eb", fontSize:"20px"}}/> },
-  {id: 1, name: "Students",img: courseImage, price:"K450.0", course:"Web development", icon: <AccountCircleIcon sx={{color: "#34c6eb", fontSize:"20px"}}/>},
+  { id: 1,img: courseImage, price:"K450.0", course:"Web development", icon: <PersonIcon sx={{color: "#34c6eb", fontSize:"20px"}}/> },
+  {id: 1,img: courseImage, price:"K450.0", course:"Web development", icon: <AccessTimeIcon sx={{color: "#34c6eb", fontSize:"20px"}}/> },
+  {id: 1, img: courseImage, price:"K450.0", course:"Web development", icon: <AccountCircleIcon sx={{color: "#34c6eb", fontSize:"20px"}}/>},
 ];
 
 export const popularCourseInfo = [
   { id: 1, name: "John Doe", icon: <PersonIcon sx={{color: "#34c6eb", fontSize:"20px"}}/> },
   {id: 1, name: "1hr 30min" , icon: <AccessTimeIcon sx={{color: "#34c6eb", fontSize:"20px"}}/> },
-  {id: 1, name: "Student", icon: <AccountCircleIcon sx={{color: "#34c6eb", fontSize:"20px"}}/>},
+  {id: 1, name: "30 Students", icon: <AccountCircleIcon sx={{color: "#34c6eb", fontSize:"20px"}}/>},
+]
+
+export const instructorsInfo = [
+  { id: 1, name: "John Doe", facebook: <Facebook sx={{color: "#34c6eb", fontSize:"20px"}} />, twitter: <Twitter sx={{color: "#34c6eb", fontSize:"20px"}}/>, insta: <Instagram sx={{color: "#34c6eb", fontSize:"20px"}}/>, img:inst1 },
+  {id: 1, name: "Micheal Mumba" , facebook: <Facebook sx={{color: "#34c6eb", fontSize:"20px"}} />, twitter: <Twitter sx={{color: "#34c6eb", fontSize:"20px"}}/>, insta: <Instagram sx={{color: "#34c6eb", fontSize:"20px"}}/>, img: inst2},
+  {id: 1, name: "Wess Banda", facebook: <Facebook sx={{color: "#34c6eb", fontSize:"20px"}} />, twitter: <Twitter sx={{color: "#34c6eb", fontSize:"20px"}}/>, insta: <Instagram sx={{color: "#34c6eb", fontSize:"20px"}}/>, img:inst3},
 ]

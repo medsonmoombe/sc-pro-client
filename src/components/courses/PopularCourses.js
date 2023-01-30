@@ -7,6 +7,7 @@ import { useStyles } from "../styles";
 import { useEffect, useState } from "react";
 import { popularCourseInfo, popularCourses } from "../About/cardsInfor";
 import { Link } from "react-router-dom";
+import Instructors from "../Instructors";
 
 const colors = { orange: "#34c6eb", gray: "#a9a9a9" };
 const PopularCourses = () => {
@@ -33,6 +34,7 @@ const PopularCourses = () => {
         sx={{
           display: "flex",
           gap: 4,
+          marginBottom: "5rem"
         }}
       >
         {popularCourses.map((item) => {
@@ -182,6 +184,7 @@ const PopularCourses = () => {
           );
         })}
       </Box>
+      <Instructors/>
     </>
   );
 };
